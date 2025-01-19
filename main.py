@@ -38,8 +38,5 @@ while True:
 
             except subprocess.CalledProcessError as e:
                 print(f'Failed to upload {filename}: {e.stderr}')
-
- 
-
 # Sleep for a while before checking the folder again
 time.sleep(10)
